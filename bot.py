@@ -7,7 +7,9 @@ import json
 
 logging.basicConfig(level=logging.INFO)
 
-bot = telebot.TeleBot(config.token)
+BOT_TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"
+
+bot = telebot.TeleBot(BOT_TOKEN)
 CHANNEL_ID = '-1002034407496'
 ADMIN_ID = 2091042930
 USERS_FILE = 'users.txt'
