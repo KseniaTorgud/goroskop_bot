@@ -7,7 +7,7 @@ import json
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = "ВАШ_ТОКЕН_ЗДЕСЬ"
+BOT_TOKEN = ""
 
 bot = telebot.TeleBot(BOT_TOKEN)
 CHANNEL_ID = '-1002034407496'
